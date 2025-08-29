@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CMethods\CMethods\bin\Debug\net8.0\CMethods.exe
+C:\Users\User\Desktop\CMethods\CMethods\bin\Debug\net8.0\CMethods.deps.json
+C:\Users\User\Desktop\CMethods\CMethods\bin\Debug\net8.0\CMethods.runtimeconfig.json
+C:\Users\User\Desktop\CMethods\CMethods\bin\Debug\net8.0\CMethods.dll
+C:\Users\User\Desktop\CMethods\CMethods\bin\Debug\net8.0\CMethods.pdb
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.AssemblyInfo.cs
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.dll
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\refint\CMethods.dll
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.pdb
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\CMethods.genruntimeconfig.cache
+C:\Users\User\Desktop\CMethods\CMethods\obj\Debug\net8.0\ref\CMethods.dll
