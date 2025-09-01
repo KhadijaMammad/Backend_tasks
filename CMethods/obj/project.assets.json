@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\CMethods\\CMethods\\CMethods.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Backend_tasks\\CMethods\\CMethods.csproj",
       "projectName": "CMethods",
-      "projectPath": "C:\\Users\\User\\Desktop\\CMethods\\CMethods\\CMethods.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Backend_tasks\\CMethods\\CMethods.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\CMethods\\CMethods\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Backend_tasks\\CMethods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
