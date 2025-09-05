@@ -32,7 +32,7 @@ namespace BankAccountApp
                 else if (price <= money)
                 {
                     money -= price;
-                    Console.WriteLine("Emeliyyat ugurlu oldu. Yeni balansiniz: " + (money - price));
+                    Console.WriteLine($"Emeliyyat ugurlu oldu. Yeni balansiniz: {money}");
                 }
                 else
                 {
