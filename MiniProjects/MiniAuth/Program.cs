@@ -5,14 +5,14 @@ namespace SimpleAuthProgram
 {
     class User
     {
-        public string Usernname { get; set; }
+        public string Username { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public string Role { get; set; }
 
         public User(string userName, string email, string password, string role)
         {
-            Usernname = userName;
+            Username = userName;
             Email = email;
             Password = password;
             Role = role;
@@ -77,14 +77,14 @@ namespace SimpleAuthProgram
                 string email = Console.ReadLine();
 
                 Console.Write("password: ");
-                string password = Console.ReadLine();
+                string password = ReadPassword();
 
                 Console.Write("Choose the role (1 - Teacher, 2 - Student): ");
                 string roleChoice = Console.ReadLine();
 
                 if (roleChoice == "1")
                 {
-                    users[userCount] = new Teacher(name, email, password);
+                    users[userCount] = new Teacher( name,  email,  password);
                 }
                 else if (roleChoice == "2")
                 {
@@ -106,7 +106,7 @@ namespace SimpleAuthProgram
                 string email = Console.ReadLine();
 
                 Console.Write("Password: ");
-                string password = Console.ReadLine();
+                string password = ReadPassword();
 
                 bool found = false;
 
@@ -114,7 +114,7 @@ namespace SimpleAuthProgram
                 {
                     if (users[i].Email == email && users[i].Password == password)
                     {
-                        Console.WriteLine($"Welcome, {users[i].Usernname}! You are logged in as a {users[i].Role}.");
+                        Console.WriteLine($"Welcome, {users[i].Username}! You are logged in as a {users[i].Role}.");
                         found = true;
                         break;
                     }
@@ -123,6 +123,29 @@ namespace SimpleAuthProgram
                 {
                     Console.WriteLine("Invalid email or password.");
                 }
+            }
+            static string ReadPassword()
+            {
+                string password = "";
+                ConsoleKeyInfo key;
+
+                do
+                {
+                    key = Console.ReadKey(true); 
+                    if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                    {
+                        password += key.KeyChar;
+                        Console.Write("*"); 
+                    }
+                    else if (key.Key == ConsoleKey.Backspace && password.Length > 0)
+                    {
+                        password = password[0..^1];
+                        Console.Write("\b \b"); 
+                    }
+                } while (key.Key != ConsoleKey.Enter);
+
+                Console.WriteLine();
+                return password;
             }
         }
     }
