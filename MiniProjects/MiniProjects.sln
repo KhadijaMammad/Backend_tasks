@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniAuth", "MiniAuth\MiniAuth.csproj", "{7D391704-50BB-4E37-95BC-EAB84D8A6871}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum-Raking", "Enum-Raking\Enum-Raking.csproj", "{CCB33F58-9EF4-4792-9B0C-5EFED0E35038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7D391704-50BB-4E37-95BC-EAB84D8A6871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D391704-50BB-4E37-95BC-EAB84D8A6871}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D391704-50BB-4E37-95BC-EAB84D8A6871}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D391704-50BB-4E37-95BC-EAB84D8A6871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB33F58-9EF4-4792-9B0C-5EFED0E35038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB33F58-9EF4-4792-9B0C-5EFED0E35038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB33F58-9EF4-4792-9B0C-5EFED0E35038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB33F58-9EF4-4792-9B0C-5EFED0E35038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CC0FC5D5-1935-409E-AF7A-0BD788B716C9}
+		SolutionGuid = {F32B3326-A792-4C8F-98B6-0B94A5D3BB77}
 	EndGlobalSection
 EndGlobal
